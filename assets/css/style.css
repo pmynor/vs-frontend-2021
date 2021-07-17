@@ -1,0 +1,50 @@
+ /* Selector Universal */
+*{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: opx;
+    padding: opx;     
+}
+/* Selector por etiquetas */
+header{
+    background: blue;
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+/*Pone colores, estilos, espacios, alineacion y tamaños*/
+footer{
+    background: blue;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    line-height: 50px;
+}
+/*Aplica a todas las etiquetas que tengan a*/
+a{
+    font-size: 18px;
+    color: rgb(109, 50, 50);
+    text-decoration: none;
+}
+/*aplicar un color a una etiquete en especifito */
+footer a{
+    color: midnightblue;
+}
+/*selector id*/
+#contenido{
+    border: 2px solid rgb(160, 160, 45);
+    padding: 10px;
+ }
+ #contenido img{
+     margin: 20%;
+ }
+ #descripcion{
+     font-style: italic;
+     text-decoration: underline;
+     font-weight: bold;
+     margin: 10px;
+ }
