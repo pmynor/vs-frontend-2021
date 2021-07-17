@@ -1,20 +1,19 @@
  /* Selector Universal */
 *{
-   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: opx;
-    padding: opx;     
+    margin: 0px;
+    padding: 0px;    
 }
 /* Selector por etiquetas */
 header{
-    background: blue;
+    background: #23376D;
     text-align: center;
-    color:white;
+    color: white;
     padding: 10px;
 }
 /*Pone colores, estilos, espacios, alineacion y tamaños*/
 footer{
-    background: blue;
+    background: #23376D;
     text-align: center;
     color: white;
     padding: 10px;
@@ -27,24 +26,24 @@ footer{
 /*Aplica a todas las etiquetas que tengan a*/
 a{
     font-size: 18px;
-    color: rgb(109, 50, 50);
+    color: #7D0A42;
     text-decoration: none;
 }
 /*aplicar un color a una etiquete en especifito */
-footer a{
-    color: midnightblue;
+footer a {
+    color: azure;
 }
 /*selector id*/
 #contenido{
-    border: 2px solid rgb(160, 160, 45);
+    border: 2px solid #FDCC00;
     padding: 10px;
- }
- #contenido img{
-     margin: 20%;
- }
- #descripcion{
+}
+#contenido img {
+    margin-left: 20%;
+}
+ #descripcion{    
      font-style: italic;
-     text-decoration: underline;
-     font-weight: bold;
-     margin: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 10px;
  }
