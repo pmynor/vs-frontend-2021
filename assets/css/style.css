@@ -38,12 +38,92 @@ footer a {
     border: 2px solid #FDCC00;
     padding: 10px;
 }
-#contenido img {
-    margin-left: 20%;
+#principal {
+    margin-left: 30%;
 }
+
+
+
  #descripcion{    
      font-style: italic;
     text-decoration: underline;
     font-weight: bold;
-    margin: 10px;
+    margin: 10px;   
  }
+
+ #menu{
+     background: #eee;     
+ }
+ #menu ul li {
+     display: block;
+     float: left;
+    border-right:#CCC 1px solid;
+}
+
+#menu ul li a {
+    display: block;
+    padding: 15px;
+    color: #444;
+}
+
+#menu ul li:hover {
+background: rgb(16,75,143);
+cursor: pointer;
+}
+
+
+#menu ul li:hover a{
+    color: white;
+}
+/*selector por clase se utiliza el punto*/
+.clearFix{
+    float: none;
+    clear: both;
+}
+
+.subTitulo{
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contenido form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+#contenido form * {
+    display: inline-block;
+}
+
+#ContenidoContacto form * {
+    display:list-item;
+    margin-left: 100px;
+}
+
+
+input[type="text"],select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width:300px;
+}
+select{
+    width: 350px;
+}
+input[type="submit"],button{
+    background: #7D0A42;
+    color: white;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
